@@ -3,7 +3,8 @@
 
   
 
-I built this bot in my spare time between February 2021 and January 2022, and the code was never meant to be shown to anybody, nor to ever be released lest i "leak my alpha". Now the alpha is public, and the edge is gone, so I would like to show off what I've learned in the last year.
+I built this bot in my spare time between February 2021 and January 2022, and the code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made.
+Never ever did I plan to release this publicly, lest I "leak my alpha". Now the alpha is public and the edge is gone, so I would like to show off what I've learned in the last year. 
 
   
 
