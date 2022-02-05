@@ -1,0 +1,14 @@
+{
+    "browsers": ["chrome:headless"],
+    "src": "e2e/**/*.testcafe.ts",
+    "screenshots": {
+        "path": "build/e2e",
+        "takeOnFails": true
+    },
+    "skipJsErrors": true,
+    "reporter": [
+        {
+            "name": "spec"
+        }
+    ]
+}

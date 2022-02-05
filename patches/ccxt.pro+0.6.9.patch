@@ -1,0 +1,17 @@
+diff --git a/node_modules/ccxt.pro/js/binance.js b/node_modules/ccxt.pro/js/binance.js
+index 7da9250..8723397 100644
+--- a/node_modules/ccxt.pro/js/binance.js
++++ b/node_modules/ccxt.pro/js/binance.js
+@@ -340,11 +340,8 @@ module.exports = class binance extends ccxt.binance {
+     }
+ 
+     async watchTrades (symbol, since = undefined, limit = undefined, params = {}) {
+-        await this.loadMarkets ();
+-        const market = this.market (symbol);
++        const messageHash = symbol.replace('/', '').toLowerCase() + "@trade"
+         const options = this.safeValue (this.options, 'watchTrades', {});
+-        const name = this.safeString (options, 'name', 'trade');
+-        const messageHash = market['lowercaseId'] + '@' + name;
+         const defaultType = this.safeString (this.options, 'defaultType', 'spot');
+         const watchTradesType = this.safeString2 (options, 'type', 'defaultType', defaultType);
+         const type = this.safeString (params, 'type', watchTradesType);

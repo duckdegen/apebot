@@ -1,0 +1,45 @@
+# Pull official base image
+# https://docs.docker.com/engine/reference/builder/#from
+FROM node:alpine
+
+
+# add credentials on build
+ARG SSH_PRIVATE_KEY
+ARG SSH_PUBLIC_KEY
+
+#Install GIT
+RUN apk update
+RUN apk add git
+
+#Install other dependencies such as openssh and python [used by node-gyp-build]
+RUN apk add openssh-client
+RUN apk add make g++
+RUN apk add --no-cache python3 py3-pip
+
+RUN mkdir ~/.ssh/
+RUN echo "${SSH_PRIVATE_KEY}" > ~/.ssh/id_rsa
+RUN echo "${SSH_PUBLIC_KEY}" > ~/.ssh/id_rsa.pub
+RUN ssh-keyscan github.com >> ~/.ssh/known_hosts
+RUN chmod 600 ~/.ssh/id_rsa.pub
+RUN chmod 600 ~/.ssh/id_rsa
+
+RUN git config --global url."git@github.com:".insteadOf "https://github.com/"
+
+# make sure your domain is accepted
+RUN touch /root/.ssh/authorized_keys
+RUN echo "${SSH_PUBLIC_KEY}" > /root/.ssh/authorized_keys
+
+# Set working directory
+# https://docs.docker.com/engine/reference/builder/#workdir
+WORKDIR /app
+
+# Install app dependencies  
+COPY package.json ./
+COPY yarn.lock ./
+RUN yarn install
+
+# Add app
+COPY . ./
+
+# Start app
+CMD ["yarn", "run", "dev"]

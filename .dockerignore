@@ -1,0 +1,3 @@
+# Modify the build context sen to the Docker daemon server
+node_modules
+.git

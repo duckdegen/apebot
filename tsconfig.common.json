@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "downlevelIteration": true,
+        "lib": ["ES2019"],
+        "target": "ES2017",
+        "module": "CommonJS",
+        // "strict": true,
+        "outDir": "build",
+        "noErrorTruncation": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "declaration": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "noUnusedLocals": true,
+        "paths": {
+            "@app/*": ["./src/*"]
+        },
+        "plugins": [{ "transform": "typescript-transform-paths" }]
+    }
+}

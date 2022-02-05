@@ -1,0 +1,28 @@
+In mongo console:
+
+use admin
+db.createUser({user:"root",pwd:"YjWAjmzhTT8E2jsa",roles:["root"]});
+
+
+Then edit /etc/mongod.conf
+
+# mongod.conf
+storage:
+  dbPath: /var/lib/mongodb
+  journal:
+    enabled: true
+
+systemLog:
+  destination: file
+  logAppend: true
+  path: /var/log/mongodb/mongod.log
+
+net:
+  port: 27017
+  bindIp: 127.0.0.1
+
+processManagement:
+  timeZoneInfo: /usr/share/zoneinfo
+
+security:
+  authorization: enabled

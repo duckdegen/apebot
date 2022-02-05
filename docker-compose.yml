@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+    server:
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+        restart: "no" #on-failure
+        volumes:
+            - .:/app
+            - /app/node_modules
+
+    mongo:
+        image: mongo:4.4
+        environment:
+            - MONGO_INITDB_DATABASE=binancetradingalpha
+            - MONGO_INITDB_ROOT_USERNAME=root
+            - MONGO_INITDB_ROOT_PASSWORD=YjWAjmzhTT8E2jsa
+        restart: always
+        ports:
+            - "27017:27017"
+        volumes:
+            - ../volumes/binanceTradingAlpha/data:/data/db

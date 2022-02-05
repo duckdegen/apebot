@@ -1,0 +1,43 @@
+/(?<=list )(?:[^_][\w.]+)+/gm
+
+new RegExp(/((?<=will list )|(?<=\), )|(?<=\) and ))(?:[^_][\w.]+)+/g);
+
+(?<=\w\w\w \()\w++
+
+
+Binance will list Beefy. Finance (BIFI) in the Innovation Zone
+Binance will list Beefy.Finance (BIFI) in the Innovation Zone
+Binance will list Dego Finance (DEGO) in the Innovation Zone
+Binance will list Marlin (POND) in the Innovation Zone
+Binance will list MANTRA DAO (OM) in the Innovation Zone
+Binance will list Stafi (FIS) in the Innovation Zone
+Binance will list Badger DAO (BADGER) in the Innovation Zone
+Binance will list Terra Virtua (TVK) in the Innovation Zone
+Binance will list Phala Network (PHA) in the Innovation Zone
+Binance will list AC Milan Fan Token (ACM)
+Binance will list UniLend (UFT) in the Innovation Zone
+Binance will list Frax Share (FXS) in the Innovation Zone
+Binance will list Vai (VAI) in the Innovation Zone
+Binance will list Prosper (PROS) in the Innovation Zone
+Binance will list Trust Wallet Token (TWT) in the Innovation Zone
+Binance will list Nervos Network (CKB)
+Binance will list DeXe (DEXE) in the Innovation Zone
+Binance will list TrueFi (TRU) in the Innovation Zone
+Binance will list 1inch (1INCH) in the Innovation Zone
+Binance will list The Graph (GRT)
+Binance will list dForce (DF) in the Innovation Zone
+Binance will list Aavegotchi (GHST) in the Innovation Zone
+Binance will list sUSD (SUSD) in the Innovation Zone
+Binance will list Prometeus (PROM) in the Innovation Zone
+Binance will list Hegic (HEGIC) in the Innovation Zone
+Binance will list Frontier (FRONT) in the Innovation Zone
+Binance will list The Force Protocol (FOR) in the Innovation Zone
+Binance will list Axie Infinity's Small Love Potion (SLP) in the Innovation Zone
+Binance will list Keep3rV1 (KP3R) in the Innovation Zone
+Binance will list Linear (LINA) in the Innovation Zone
+Binance will list Ellipsis (EPS) and Auto (AUTO) in the Innovation Zone
+Binance will list Ellipsis (EPS), Maxi Ultra (MXU), and Auto (AUTO) in the Innovation Zone
+Binance will list Poocoin (POO), CumRocket (CUMMIES) and Basic Attention Token (BAT) in the Innovation Zone
+Binance will list Ampleforth Governance Token (FORTH) and open trading for FORTH/BTC, FORTH/BUSD and FORTH/USDT trading pairs at 2021-04-23 9:00 AM (UTC). Users can now start depositing FORTH in preparation for trading.
+Binance will list Poocoin (POO), CumRocket (CUMMIES) and Basic Attention Token (BAT) in the Innovation Zone and open trading for POO/BTC, CUMMIES/BUSD and BAT/USDT trading pairs at 2020-04-23 9:00 AM (UTC). Users can now start depositing FORTH in preparation for trading.
+Binance will list ZAP ZAP (ZRE), Cum Rocket (MAKE) and LAX Airport (LAZ) in the Innovation Zone and open trading for LAZ/BTC, MAKE/BUSD and ZRE/USDT trading pairs at 2022-04-23 9:00 AM (UTC). Users can now start depositing FORTH in preparation for trading.

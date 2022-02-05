@@ -1,0 +1,71 @@
+https://blockchair.com/ethereum/transaction/0x6a4e11fdf4c7f90793a220938980071691c89c04a7128f2e0c88c24cf1a8a6b6   << first TVK transaction, one minute earlier than my crawler. 5000 gas price, ±100k traded.
+
+
+Buying more on a dex a few minutes after it launched on binance only if the price on binance is higher, to then sell at a higher price on binance. Trade on dex executed 2 minutes after binance launch time.
+Price on uniswap was 16 and was 18 on binance. 
+Token pair is FXS/BUSD @ launch.
+
+Unsolved dilemma: Why did our friend purchase FXS on February 12? 
+Interstingly he plunked down 10k USDT 
+his pattern is to buy small caps, like $SPDR at 10k increments.
+Just his own manual trading, doesn't seem automated.
+
+
+
+Wallets buying TVK in block 11930918
+0x493d49f4504982b3133aa938392cf5dac24df279 (0x6a8203e643f3919c13d4a41ddf1b4d8057c333b911ed4ea2cedfac42c65c8953) 
+0x5bcf90439a80ffe8e78851680dec95427b263b28 (0x6a4e11fdf4c7f90793a220938980071691c89c04a7128f2e0c88c24cf1a8a6b6)
+0xa49947fb52968226f0148470c7af28c5e33de622 (0xefaf436b348d41fdcb7c58fe29db78f4dc06b48ae8c9ee3a4f9621ec1a8d1e9b)
+0x7d92ad7e1b6ae22c6a43283af3856028cd3d856a (0x0317d3177efca0db3ee8950699ef7d2eccf54ae315908105877314fd442a3e22)
+
+
+
+Alternative source for news:
+https://www.binance.com/bapi/composite/v3/public/market/notice/get?page=1&rows=2
+
+
+Endpoints used by Binance app to create push notifications:
+getAnnouncementCatalog(e = 1) {
+        return this.request({
+          url:
+            "/bapi/composite/v1/public/cms/article/list/query?type=1&pageNo=1&pageSize=" +
+            e,
+        });
+      }
+      getAnnouncement(e, t) {
+        return this.request({
+          url: "/bapi/composite/v1/public/cms/article/catalog/list/query",
+          params: { pageNo: i + 1, pageSize: 20, catalogId: e.value },,
+          cancelExecutor: t,
+        });   
+      }
+      getAnnouncementDetail(e, t) {
+        return this.request({
+          url: "/bapi/composite/v1/public/cms/article/detail/query",
+          params: { articleCode: e },
+          cancelExecutor: t,
+        });
+      }
+
+
+
+
+      https://etherscan.io/txs?block=13369410&p=2 failed due to too little slippage as mcap was small
+
+
+      https://etherscan.io/tx/0x4a3c2a0dd219e7514ede25cff46d186ae97bd9ce1953acab9be2a5a231802b84 failed due to competitor outbidding gas on eip1559
+      Outbid by this MEV bot tx https://etherscan.io/tx/0x59a484f30e37d31d5a5ec9d0c6abcd31a77aee9539479f7b5966aa3d7d8927d3
+      Outbid by this MEV bot: https://etherscan.io/address/0x927cf8ceae6efb1b7e81f5a7907e0e46d41619f8
+
+      Outbid by this individual tx: https://etherscan.io/tx/0xe7153ddbb2bcb7e8bffbfdf0edee81a8f19c0888622b6b87cd0a026e30ca8392
+      Outbid by this individual addy: https://etherscan.io/address/0x55659ddee6cb013c35301f6f3cc8482de857ea8e
+      If this is you, i'd like to congratulate you on your badassery. I have been following your every trade and have not been able to figure out how you get ±20 secs earlier than i do. Godspeed.
+      
+
+
+
+
+
+
+      https://www.binance.com/bapi/asset/v2/public/asset/asset/get-all-asset
+      https://www.binance.com/bapi/asset/v2/public/asset-service/product/get-products?includeEtf=true
