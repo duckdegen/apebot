@@ -182,7 +182,7 @@ If this is you, I'd like to congratulate you on your badassery. I have been foll
 
   
 
-- *I am currently for hire, you can contact me at beepboop_defi@protonmail.com*.
+- *I am currently for hire, you can contact me at duckdegen@gmail.com*.
 
 - I have 10+ years experience in building software using JS/TS/node
 
