@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 dotenv.config();
-import ccxt from "ccxt.pro";
+import ccxt from "ccxt";
 import got from "got";
 import { Logger } from "tslog";
 

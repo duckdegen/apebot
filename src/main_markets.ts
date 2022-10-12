@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 import { Logger } from "tslog";
-import ccxt from "ccxt.pro";
+import ccxt from "ccxt";
 
 const { BINANCE_API_KEY, BINANCE_API_SECRETKEY } = process.env;
 

@@ -18,7 +18,7 @@ import { Arbitrage } from "./schemas/arbitrage.schema";
 import { calculateServertimeDrift } from "../timesync/timesync.controller";
 
 import { generateMarketsFromArbitrageOpportunities, setupBinanceMarket } from "./exchange.service";
-import { binance } from "ccxt.pro";
+import { binance } from "ccxt";
 import type { Order, Balances } from "ccxt";
 
 const ARB_SLIDING_WINDOW_DURATION = +process.env.ARB_SLIDING_WINDOW_DURATION || 50;

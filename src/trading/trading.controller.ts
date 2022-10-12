@@ -1,4 +1,4 @@
-import ccxt from "ccxt.pro";
+import ccxt from "ccxt";
 import { Logger } from "tslog";
 import { findPurchasedTokens, markPurchasedTokensAsInTrading } from "../coin-analysis/coin-analysis.service";
 import { calculateServertimeDrift } from "../timesync/timesync.controller";
