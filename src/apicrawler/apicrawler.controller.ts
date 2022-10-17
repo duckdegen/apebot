@@ -24,7 +24,7 @@ export const crawlEndpoints = async (): Promise<void> => {
                 maxSockets: 256,
                 maxFreeSockets: 256,
                 scheduling: "lifo",
-                proxy: "http://sg.proxymesh.com:31280",
+                proxy: "http://us-wa.proxymesh.com:31280",
             }),
         },
     });
@@ -37,7 +37,7 @@ export const crawlEndpoints = async (): Promise<void> => {
                 maxSockets: 256,
                 maxFreeSockets: 256,
                 scheduling: "lifo",
-                proxy: "http://sg.proxymesh.com:31280",
+                proxy: "http://us-wa.proxymesh.com:31280",
             }),
         },
     });
@@ -50,7 +50,7 @@ export const crawlEndpoints = async (): Promise<void> => {
                 maxSockets: 256,
                 maxFreeSockets: 256,
                 scheduling: "lifo",
-                proxy: "http://sg.proxymesh.com:31280",
+                proxy: "http://us-wa.proxymesh.com:31280",
             }),
         },
     });
@@ -63,7 +63,7 @@ export const crawlEndpoints = async (): Promise<void> => {
                 maxSockets: 256,
                 maxFreeSockets: 256,
                 scheduling: "lifo",
-                proxy: "http://sg.proxymesh.com:31280",
+                proxy: "http://us-wa.proxymesh.com:31280",
             }),
         },
     });
@@ -76,7 +76,7 @@ export const crawlEndpoints = async (): Promise<void> => {
                 maxSockets: 256,
                 maxFreeSockets: 256,
                 scheduling: "lifo",
-                proxy: "http://sg.proxymesh.com:31280",
+                proxy: "http://us-wa.proxymesh.com:31280",
             }),
         },
     });
