@@ -1,3 +1,6 @@
 node_modules
 coverage/
+build/
 *.env
+package-lock.json
+yarn.lock

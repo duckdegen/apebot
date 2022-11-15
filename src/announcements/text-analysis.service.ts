@@ -142,7 +142,7 @@ export const findTokenCommonNameInText = (inputText: string): string => {
 };
 
 export const findTradingStartDate = (inputText: string): string => {
-    const TradingStartRegex = new RegExp(/2021(.*(\(UTC\)))/g);
+    const TradingStartRegex = new RegExp(/2022(.*(\(UTC\)))/g);
 
     const matches = TradingStartRegex.exec(inputText);
 

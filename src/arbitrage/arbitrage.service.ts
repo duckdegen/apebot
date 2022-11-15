@@ -6,7 +6,7 @@ import { Logger } from "tslog";
 import isAfter from "date-fns/isAfter";
 import sub from "date-fns/sub";
 import { LeanDocument } from "mongoose";
-import { binance } from "ccxt.pro";
+import { binance } from "ccxt";
 import { Order, Params } from "ccxt";
 
 const log: Logger = new Logger();

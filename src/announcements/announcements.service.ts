@@ -31,7 +31,7 @@ export const getAnnouncementsFromAPI = async (urlToCrawl: string): Promise<Annou
                         maxSockets: 256,
                         maxFreeSockets: 256,
                         scheduling: "lifo",
-                        proxy: "http://jp.proxymesh.com:31280",
+                        proxy: "http://us-wa.proxymesh.com:31280",
                     }),
                 },
             });
