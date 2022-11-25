@@ -211,4 +211,4 @@ I will only accept payments in crypto.
   
 
 ## Do you feel the urge to send me some crypto? 
-   Plz send donations to apebot.eth
+   Plz send donations to duckdegen.eth
