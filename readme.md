@@ -1,3 +1,6 @@
+# 📣📣📣 I'm launching a new project for all you rekt degens out there: https://jobstash.xyz , a job aggregator for all jobs in crypto.
+Check out the launch announcement at https://twitter.com/jobstash_xyz/status/1631319596228567041 and join the telegram at https://telegram.me/jobstash
+
 
 # Binance Alpha Bot
 
