@@ -1,18 +1,9 @@
-# 🚨🚨🚨 GITCOIN GRANT expiring on 2023/05/09 23:59 UTC! 🚨🚨🚨 
-We are currently enrolled our Job Aggregator, JobStash, in a gitcoin grant, and we only have 4 donations. 
-PLEASE, if you ever benefitted from reading this source code, support me by donating to our gitcoin grant. Even just 1 DAI.
-Find out all about it here: https://explorer.gitcoin.co/#/round/1/0xaa40e2e5c8df03d792a52b5458959c320f86ca18/0xaa40e2e5c8df03d792a52b5458959c320f86ca18-226
-It only take ±40 donations to reach the top of that list, if only 3% of you donated we'd make it and have a chance of funding our continued development for the next few months. 
-THANK YOU!
-
-
-# 📣📣📣 I'm launching a new project for all you rekt degens out there: https://jobstash.xyz , a job aggregator for all jobs in crypto.
+# 📣📣📣 I'launched a new project for all you rekt degens out there: https://jobstash.xyz , a job aggregator for all jobs in crypto.
 Check out the launch announcement at https://twitter.com/jobstash_xyz/status/1631319596228567041 and join the telegram at https://telegram.me/jobstash
 
 
 # Binance Alpha Bot
 
-  
 
 I built this bot in my spare time between February 2021 and January 2022, and the code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made.
 Never ever did I plan to release this publicly, lest I "leak my alpha". Now the alpha is public and the edge is gone, so I would like to show off what I've learned in the last year. 
